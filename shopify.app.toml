@@ -3,7 +3,7 @@
 client_id = "2a095135a01e14cc4bc03f58a1082d61"
 name = "nicjeys"
 handle = "nicjeys"
-application_url = "https://why-charlotte-vendors-geek.trycloudflare.com"
+application_url = "https://hewlett-failing-notebooks-dan.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://why-charlotte-vendors-geek.trycloudflare.com/auth/callback",
-  "https://why-charlotte-vendors-geek.trycloudflare.com/auth/shopify/callback",
-  "https://why-charlotte-vendors-geek.trycloudflare.com/api/auth/callback"
+  "https://hewlett-failing-notebooks-dan.trycloudflare.com/auth/callback",
+  "https://hewlett-failing-notebooks-dan.trycloudflare.com/auth/shopify/callback",
+  "https://hewlett-failing-notebooks-dan.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
