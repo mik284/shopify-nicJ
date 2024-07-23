@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "2a095135a01e14cc4bc03f58a1082d61"
+name = "nicjeys"
+handle = "nicjeys"
+application_url = "https://why-charlotte-vendors-geek.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-a4f8a6ba.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://why-charlotte-vendors-geek.trycloudflare.com/auth/callback",
+  "https://why-charlotte-vendors-geek.trycloudflare.com/auth/shopify/callback",
+  "https://why-charlotte-vendors-geek.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks"
+
+[pos]
+embedded = false
